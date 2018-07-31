@@ -1,0 +1,107 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="loginLook.css" title="login">
+</head>
+<!-- multistep form -->
+<form id="msform">
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Account Setup</li>
+    <li>About Yourself</li>
+    <li>About Politics</li>
+  </ul>
+  <!-- fieldsets -->
+  <fieldset>
+    <h2 class="fs-title">Create your account</h2>
+    <h3 class="fs-subtitle">This is step 1</h3>
+    <input type="text" name="email" placeholder="Email" />
+    <input type="password" name="pass" placeholder="Password" />
+    <input type="password" name="cpass" placeholder="Confirm Password" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">About Yourself</h2>
+    <h3 class="fs-subtitle">In order to verify your identity we need some information from you! Don't worry, this information is stored securely and cannot be linked to any responses you submit in Step 3.</h3>
+    <input type="text" name="first" placeholder="First Name" />
+    <input type="text" name="last" placeholder="Last Name" />
+    <input type="text" name="address" placeholder="Street Address" />
+    <div class="custom-select" style="width:200px;">
+  <select>
+    <option value="0">State</option>
+    <option value="1">AL</option>
+    <option value="2">AK</option>
+    <option value="3">AZ</option>
+    <option value="4">AR</option>
+    <option value="5">CA</option>
+    <option value="6">CO</option>
+    <option value="7">CT</option>
+    <option value="8">DE</option>
+    <option value="9">FL</option>
+    <option value="10">GA</option>
+    <option value="11">HI</option>
+    <option value="12">ID</option>
+    <option value="13">IL</option>
+    <option value="14">IN</option>
+    <option value="15">IA</option>
+    <option value="16">KS</option>
+    <option value="17">KY</option>
+    <option value="18">LA</option>
+    <option value="19">ME</option>
+    <option value="20">MD</option>
+    <option value="21">MA</option>
+    <option value="22">MI</option>
+    <option value="23">MS</option>
+    <option value="24">MN</option>
+    <option value="25">MO</option>
+    <option value="26">MT</option>
+    <option value="27">NE</option>
+    <option value="28">NV</option>
+    <option value="29">NH</option>
+    <option value="30">NJ</option>
+    <option value="31">NM</option>
+    <option value="32">NY</option>
+    <option value="33">NC</option>
+    <option value="34">ND</option>
+    <option value="35">OH</option>
+    <option value="36">OK</option>
+    <option value="37">OR</option>
+    <option value="38">PA</option>
+    <option value="39">RI</option>
+    <option value="40">SC</option>
+    <option value="41">SD</option>
+    <option value="42">TN</option>
+    <option value="43">TX</option>
+    <option value="44">UT</option>
+    <option value="45">VT</option>
+    <option value="46">VA</option>
+    <option value="47">WA</option>
+    <option value="48">WV</option>
+    <option value="49">WI</option>
+    <option value="50">WY</option>
+    <option value="51">PR</option>
+    <option value="52">OTHER</option>
+  </select>
+</div>
+    <input type="text" name="zip" placeholder="Zipcode" />
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">About Politics</h2>
+    <h3 class="fs-subtitle">This is why you came here in the first place! Tell us a few things about your political views so we can help connect you to your local constituents/candidates and get your voice heard! All responses in this section are optional. However, ALL responses are anonymized (we will not link it to identifiers like your name, street address, or email), ALL responses are private (no one will be able to see your specific responses besides you), AND no responses are final (political views change over time just like anything else, and we get that, which is why you can adjust your responses as many times as you like), so we highly recommend you fill it out!</h3>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwUcJjiK3qPEJG5r9B-eKOVZWhn8WVWaGZQ0iEVEGfDKRIKw/viewform?embedded=true">Loading...</iframe>
+
+    <h3 class="fs-subtitle">Please remember to hit submit on the questionnaire BEFORE pressing "Finish" below</h3>
+  <input type="button" name="previous"  class="previous action-button"  value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Finish" />
+  </fieldset>
+
+    <script  src="loginFun.js"></script>
+    
+</form>
+
+
+
+</html>
